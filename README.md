@@ -3,6 +3,7 @@
 A semi-serious open research and engineering project exploring the design, simulation, business logic, and civilization-scale implications of a Dyson Swarm.
 
 The project starts simple: collect knowledge, organize engineering questions, build simulations, and turn Discord chaos into a structured research initiative.
+To join the team's war room: https://discord.gg/Brs9XhJHg6 (anybody spamming anything else but content to contribute to this project will be banned).
 
 ## Main Areas
 

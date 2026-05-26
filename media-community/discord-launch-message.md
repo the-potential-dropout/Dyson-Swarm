@@ -2,7 +2,7 @@
 
 I set up the first version of the Dyson Swarm GitHub repo.
 
-This is where we’ll organize the research, engineering ideas, simulations, business logic, visuals, and general civilization-scale chaos into something structured.
+This is where we’ll organize the website, research, engineering ideas, simulations, assets, business logic, supply-chain thinking, visuals, and general civilization-scale chaos into something structured.
 
 You do NOT need to be a GitHub expert or aerospace engineer to participate.
 
@@ -13,8 +13,11 @@ Useful contributions right now:
 - research
 - simulations
 - diagrams
+- 3D models
 - engineering concepts
 - references and papers
+- business ideas
+- supply-chain ideas
 - organizing ideas from Discord
 
 Start here:

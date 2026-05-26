@@ -1,41 +1,35 @@
 # CHANGELOG
 
-## V1 — Initial Public Prototype
+## V2 — Modular Website Build
 
-Date:
-- 2026-05-26
+Date: 2026-05-26
 
-Status:
-- Prototype
-
-Summary:
-The first public prototype of the Dyson Swarm Simulator establishes the foundation for the interactive visualization layer of the project.
+Status: Prototype / playable web build
 
 Added:
-- Main menu system
-- Mission statement
-- Investor-facing language
-- Branding integration
-- Standalone HTML architecture
-- 3D navigable visualization concepts
-- Initial Dyson swarm representation
-- HUD/game-inspired UI direction
-- Engineering calculator foundation
 
-Design Philosophy:
-The simulator should feel simultaneously like:
-1. a scientific visualization tool,
-2. a speculative civilization simulator,
-3. a cinematic science-fiction experience, and
-4. a serious systems-engineering blueprint.
+- `website/` architecture
+- Landing page
+- Modular V2 simulator page
+- Complete standalone V2 HTML build
+- Shared CSS layer
+- Math, orbital mechanics, and rendering modules
+- Shader source reference folders
+- Asset folders for audio, images, and 3D models
+- GitHub Pages deployment workflow
+- V2 context and next-version planning documents
 
-Known Limitations:
-- Simplified orbital behavior
-- Prototype-level rendering
-- No persistence system
-- No multiplayer/collaboration layer
-- Limited engineering depth in current calculations
-- Placeholder/scaffold deployment inside GitHub repo pending future full sync
+Improved:
 
-Next Major Milestone:
-V2 — Simulation realism and modular systems architecture.
+- Keplerian circular-orbit estimates for orbital period and speed
+- Solar flux, collector coverage, useful power, annual energy, equilibrium temperature, and dry-mass calculations
+- Visual proxy orbits with inclination, eccentricity, node, argument, and phase values
+- Modular WebGL presentation with starfield, orbit rings, beams, HUD, radar, and flight controls
+
+## V1 — Initial Prototype
+
+Date: 2026-05-26
+
+Status: Archived prototype
+
+Added main menu, mission statement, single-file HTML architecture, navigable 3D visualization direction, HUD/game UI, and calculator foundation.

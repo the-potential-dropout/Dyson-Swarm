@@ -9,21 +9,18 @@ This project treats the Dyson Swarm as both:
 
 The project is fictional in the sense that we are not claiming active deployment today. It is serious in the sense that every fictional system should be backed by research, physics, engineering logic, economics, supply-chain thinking, logistics, and clear assumptions.
 
-## Main Deliverable
+## Current Public Build
 
-The main deliverable is a web platform hosted from this repository.
+The active website build lives in `website/`.
 
-The website will include:
+Primary entry points:
 
-- 3D visualizations of the Dyson Swarm
-- interactive simulations
-- calculators
-- engineering design tabs
-- business plan tabs
-- supply-chain and logistics tabs
-- research and knowledge pages
-- assets, images, models, videos, and diagrams
-- public onboarding for contributors
+- `website/index.html` — landing page
+- `website/simulators/dyson-swarm-simulator-v2.html` — modular V2 simulator
+- `website/simulators/dyson-swarm-simulator-v2-standalone.html` — full standalone V2 HTML build
+- `website/simulators/dyson-swarm-simulator-v1.html` — archived V1 build
+
+GitHub Pages deployment is configured through `.github/workflows/deploy-pages.yml` and publishes the `website/` folder.
 
 ## Project Principle
 
@@ -35,9 +32,11 @@ If it describes deployment, expose the assumptions.
 
 If it asks for investment, show the roadmap, risks, and resource requirements.
 
+Every simulator version should keep both a modular implementation and a full standalone HTML build.
+
 ## Repository Areas
 
-- `website/` — main HTML website, UI, tabs, interactive app code
+- `website/` — main website, UI, tabs, interactive app code
 - `assets/` — images, videos, 3D files, diagrams, branding, concept art
 - `blueprint/` — integrated deployment blueprint and system-level plan
 - `knowledge-tech-research/` — physics, technology, research notes, references
@@ -50,6 +49,6 @@ If it asks for investment, show the roadmap, risks, and resource requirements.
 
 ## Current Stage
 
-Phase 0: Project foundation.
+Phase 1: website simulator foundation.
 
-The immediate goal is to build a clear repo structure and main website architecture so contributors understand where every idea belongs.
+The immediate goal is to evolve the V2 simulator into a credible public platform with stronger physics, clearer assumptions, and investor/contributor onboarding.

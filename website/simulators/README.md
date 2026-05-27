@@ -1,75 +1,24 @@
 # Dyson Swarm Simulators
 
-## Current Simulator
+## Active Version
 
-### Dyson Swarm Simulator V1
+- V2 modular build: `dyson-swarm-simulator-v2.html`
+- V2 standalone build: `dyson-swarm-simulator-v2-standalone.html`
+- V1 archive: `dyson-swarm-simulator-v1.html`
 
-Location:
-- `website/simulators/dyson-swarm-simulator-v1.html`
+V2 splits the simulator into website, CSS, JavaScript modules, shader reference files, and asset folders while preserving a complete standalone HTML version.
 
-Purpose:
-- First playable visualization and calculator prototype for the Dyson Swarm project.
-- Establishes the visual language and interaction model for the broader civilization-scale simulation platform.
+## V2 Highlights
 
-Core Features Implemented In V1:
-- Standalone offline HTML architecture
-- 3D navigable space visualization
-- Game-inspired cockpit/HUD presentation
-- Dyson swarm orbital visualization
-- Real-time engineering calculator concepts
-- Cinematic presentation layer
-- Mission statement and investor-facing framing
-- Intro/main menu experience
+- Main menu and investor-facing mission statement
+- 3D navigable space-flight experience
+- Live engineering calculator
+- First-order orbital mechanics
+- Visual proxy swarm with inclined/eccentric orbital families
+- Shared website styling
+- Modular JavaScript structure
+- Standalone HTML artifact kept beside the modular build
 
-Technical Direction:
-- Single-file architecture for portability
-- Native browser rendering stack
-- No dependency on paid APIs
-- Intended to eventually evolve into a modular simulation engine
+## Standing Rule
 
-## V2 Goals
-
-### Simulation
-- Real orbital mechanics approximation
-- Variable orbital inclinations
-- Solar radiation pressure estimation
-- Heat management simulation
-- Collision avoidance systems
-- Dynamic satellite deployment visualization
-
-### Visuals
-- Higher-fidelity shaders
-- Volumetric star corona
-- Cinematic camera system
-- Spacecraft fly-through mode
-- Planet rendering
-- LOD optimization
-
-### Engineering
-- Energy transmission modeling
-- Launch economics estimator
-- Material mass budgeting
-- Manufacturing throughput calculations
-- Supply-chain visualization
-- Civilization energy demand scaling
-
-### UX
-- Multiple tabs and operational views
-- Timeline controls
-- Save/load scenarios
-- Preset swarm configurations
-- Interactive onboarding
-
-### Long-Term Vision
-The simulator is intended to evolve from a visualization into a full systems-thinking platform combining:
-- physics
-- infrastructure
-- economics
-- logistics
-- manufacturing
-- energy systems
-- governance
-- public education
-- cinematic storytelling
-
-Built by The Potential Dropout and the community.
+Every future simulator release must include both the modular website implementation and a complete single-file HTML build.
